@@ -12,12 +12,12 @@ if (randomNum >= 4) {
 }
 
 // 1c 
-if (randomNum != 3) {
+if (randomNum != 3) { // <-- can also be !==
     console.log("Not equal to 3");
 }
 
 // 1d
-if (randomNum != 3 && randomNum != 5) {
+if (randomNum != 3 && randomNum != 5) { // <-- can also be !== 
     console.log("NOT equal to 3 AND not equal to 5");
 }
 
@@ -47,3 +47,12 @@ switch (randomNum) {
       console.log('Five');
       break;
 }
+
+// Switch Statement takes in a parameter/argument and returns something based on the CASE (Or the match) that the parameter/argument goes with
+// In this example if randomNum is 1 it will run the console.log("One"); code, if randomNum is 2 it will run the console.log("Two"); code, etc.
+
+  // Default works like ELSE in a Conditional Statement (If the value does not match any of the cases,. then it will run what is in the default)
+  // default:
+  //   console.log("Five");
+  // There is no need for a BREAK at the end of the Switch Statement since there are no other cases/possibilities
+
